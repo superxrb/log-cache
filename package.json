@@ -1,0 +1,32 @@
+{
+  "name": "log-service",
+  "version": "1.0.0",
+  "description": "Reolink log Service",
+  "main": "dist/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "npm run rebuild",
+    "build": "tsc -p .",
+    "rebuild": "npm run clean && npm run build",
+    "test": "echo No test yet",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:superxrb/log-cache.git"
+  },
+  "author": "Xie Rongbin <xierb@sz-bcs.com.cn>",
+  "dependencies": {},
+  "devDependencies": {
+    "@litert/logger": "^0.2.3",
+    "@litert/redis": "^0.1.7",
+    "@types/node": "^10.5.8"
+  },
+  "engines": {
+    "node": ">=8.6.0"
+  }
+}
