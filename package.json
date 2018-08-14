@@ -22,7 +22,7 @@
   "author": "Xie Rongbin <xierb@sz-bcs.com.cn>",
   "dependencies": {},
   "devDependencies": {
-    "@litert/logger": "^0.2.3",
+    "@litert/logger": "^0.3.1",
     "@litert/redis": "^0.1.7",
     "@types/node": "^10.5.8"
   },
