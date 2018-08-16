@@ -1,4 +1,4 @@
-import LogCache from "./cache";
+import LogCache from "./logger_redis";
 
 export {
     LogCache

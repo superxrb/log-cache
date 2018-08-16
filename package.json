@@ -1,5 +1,5 @@
 {
-  "name": "log-service",
+  "name": "@reolink/logger-redis",
   "version": "1.0.0",
   "description": "Reolink log Service",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:superxrb/log-cache.git"
+    "url": "git@120.24.98.208:xierb/logger-redis.git"
   },
   "author": "Xie Rongbin <xierb@sz-bcs.com.cn>",
   "dependencies": {},

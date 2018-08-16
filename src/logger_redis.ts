@@ -29,7 +29,7 @@ export class LogCache implements Loggers.IDriver {
 
         let timestamp = parseInt((date.getTime() / 3600000).toString()) * 3600000;
         
-        let cacheKey = `log_${this._service}_${subject}_${timestamp}`;
+        let cacheKey = `logs/${this._service}/${subject}/${timestamp}`;
 
         this._logCache[cacheKey].push(text);        
 
